@@ -9,5 +9,6 @@ namespace HouseSystem.Models
     { 
         public string Telephone { get; set; }
         public virtual ICollection<Advertisement> Advertisements { get; set; }
+        //merge test 
     }
 }
